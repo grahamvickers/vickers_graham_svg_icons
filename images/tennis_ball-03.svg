@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st2{stroke:#000000;stroke-miterlimit:10;}
+	.st3{fill:url(#SVGID_2_);stroke:#000000;stroke-miterlimit:10;}
+	.st4{fill:url(#SVGID_3_);stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
+	.st6{fill:url(#SVGID_4_);stroke:#000000;stroke-miterlimit:10;}
+	.st7{fill:url(#SVGID_5_);stroke:#000000;stroke-miterlimit:10;}
+	.st8{clip-path:url(#SVGID_7_);stroke:#000000;stroke-miterlimit:10;}
+</style>
+<g id="basketball">
+</g>
+<g id="hockey_x5F_puck">
+</g>
+<g id="tennis_x5F_ball">
+	<radialGradient id="SVGID_1_" cx="100" cy="100" r="97.0547" gradientUnits="userSpaceOnUse">
+		<stop  offset="3.888313e-02" style="stop-color:#DBE9D9"/>
+		<stop  offset="5.461369e-02" style="stop-color:#DBE9D5"/>
+		<stop  offset="0.2496" style="stop-color:#DFE6A7"/>
+		<stop  offset="0.4362" style="stop-color:#E1E580"/>
+		<stop  offset="0.6094" style="stop-color:#E3E45A"/>
+		<stop  offset="0.7664" style="stop-color:#E4E43A"/>
+		<stop  offset="0.9018" style="stop-color:#E4E421"/>
+		<stop  offset="1" style="stop-color:#E4E417"/>
+	</radialGradient>
+	<circle style="fill:url(#SVGID_1_);stroke:#FFFFFF;stroke-miterlimit:10;" cx="100" cy="100" r="97.1"/>
+	<path class="st5" d="M32.2,31.5c0,0,55.1,65.8,0,137"/>
+	<path class="st5" d="M168.3,31.5c-1.4,1.7-56.4,64.1,0,137"/>
+</g>
+<g id="volleyball">
+</g>
+<g id="volleyball_copy">
+</g>
+</svg>
