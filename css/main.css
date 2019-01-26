@@ -55,7 +55,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63abe2', end
 
 #welcome h1 {
   font-size: 45px;
-	text-shadow: -2px 3px grey;
+	text-shadow: 2.5px 1px 1px grey;
 }
 
 #intro{
@@ -73,8 +73,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63abe2', end
   flex-wrap: wrap;
   margin-top: 40px;
   margin-bottom: 40px;
-  background-color: #eeeee0;
   border-radius: 15px;
+	background: #e1ffff;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+background: -moz-linear-gradient(left, #e1ffff 0%, #fdffff 54%, #fdffff 56%, #fdffff 56%, #b1d8f5 100%);
+background: -webkit-linear-gradient(left, #e1ffff 0%,#fdffff 54%,#fdffff 56%,#fdffff 56%,#b1d8f5 100%);
+background: linear-gradient(to right, #e1ffff 0%,#fdffff 54%,#fdffff 56%,#fdffff 56%,#b1d8f5 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#b1d8f5',GradientType=1 );
+}
+
+.basketball:hover {
+  filter: drop-shadow(5px 5px 5px #222);
 }
 
 .basketball:active {
@@ -82,9 +92,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63abe2', end
 	bottom: 30px;
 }
 
+.puck:hover {
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+ 	filter: drop-shadow(5px 5px 5px #222);
+}
+
 .puck:active {
 	position: relative;
 	right: 30px;
+}
+
+.tennisBall:hover {
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+ 	filter: drop-shadow(5px 5px 5px #222);
 }
 
 .tennisBall:active {
@@ -92,9 +112,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63abe2', end
 	bottom: 30px;
 }
 
+.volleyball:hover {
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+ 	filter: drop-shadow(5px 5px 5px #222);
+}
+
 .volleyball:active {
 	position: relative;
 	bottom: 30px;
+}
+
+.soccer:hover {
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+ 	filter: drop-shadow(5px 5px 5px #222);
 }
 
 .soccer:active {
@@ -107,10 +137,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63abe2', end
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-top: 40px;
+  margin-top: 80px;
   margin-bottom: 40px;
-  background-color: #eeeee0;
   border-radius: 15px;
+	background: #e1ffff;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+background: -moz-linear-gradient(left, #e1ffff 0%, #fdffff 54%, #fdffff 56%, #fdffff 56%, #b1d8f5 100%);
+background: -webkit-linear-gradient(left, #e1ffff 0%,#fdffff 54%,#fdffff 56%,#fdffff 56%,#b1d8f5 100%);
+background: linear-gradient(to right, #e1ffff 0%,#fdffff 54%,#fdffff 56%,#fdffff 56%,#b1d8f5 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#b1d8f5',GradientType=1 );
+}
+
+.bat:hover {
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+ 	filter: drop-shadow(5px 5px 5px #222);
 }
 
 .bat:active {
@@ -118,9 +159,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63abe2', end
 	transform: rotate(-50deg);
 }
 
+.golf:hover {
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+ 	filter: drop-shadow(5px 5px 5px #222);
+}
+
 .golf:active {
 	position: relative;
 	transform: rotate(-90deg);
+}
+
+.hockey:hover {
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+ 	filter: drop-shadow(5px 5px 5px #222);
 }
 
 .hockey:active {
@@ -128,9 +179,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63abe2', end
 	transform: rotate(-90deg);
 }
 
+.lacrosse:hover {
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+ 	filter: drop-shadow(5px 5px 5px #222);
+}
+
 .lacrosse:active {
 	position: relative;
 	transform: rotate(60deg);
+}
+
+.racket:hover {
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+ 	filter: drop-shadow(5px 5px 5px #222);
 }
 
 .racket:active {
