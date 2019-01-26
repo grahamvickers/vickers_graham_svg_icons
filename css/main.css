@@ -8,7 +8,11 @@
 #container{
   width: 75%;
   margin: 0 auto;
-  background-color: lightgrey;
+	background: #f6f8f9;
+background: -moz-linear-gradient(top, #f6f8f9 0%, #d7dee3 100%);
+background: -webkit-linear-gradient(top, #f6f8f9 0%,#d7dee3 100%);
+background: linear-gradient(to bottom, #f6f8f9 0%,#d7dee3 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#d7dee3',GradientType=0 );
 }
 
 #mainHeader{
@@ -46,10 +50,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63abe2', end
   margin-top: 40px;
   font-family: Helvetica, arial, sans-serif;
 	font-weight: bold;
+
 }
 
 #welcome h1 {
   font-size: 45px;
+	text-shadow: -2px 3px grey;
 }
 
 #intro{
@@ -71,6 +77,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63abe2', end
   border-radius: 15px;
 }
 
+.basketball:active {
+	position: relative;
+	bottom: 30px;
+}
+
+.puck:active {
+	position: relative;
+	right: 30px;
+}
+
+.tennisBall:active {
+	position: relative;
+	bottom: 30px;
+}
+
+.volleyball:active {
+	position: relative;
+	bottom: 30px;
+}
+
+.soccer:active {
+	position: relative;
+	bottom: 30px;
+}
+
 #icons2{
   display: flex;
   flex-direction: row;
@@ -80,6 +111,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63abe2', end
   margin-bottom: 40px;
   background-color: #eeeee0;
   border-radius: 15px;
+}
+
+.bat:active {
+	position: relative;
+	transform: rotate(-50deg);
+}
+
+.golf:active {
+	position: relative;
+	transform: rotate(-90deg);
+}
+
+.hockey:active {
+	position: relative;
+	transform: rotate(-90deg);
+}
+
+.lacrosse:active {
+	position: relative;
+	transform: rotate(60deg);
+}
+
+.racket:active {
+	position: relative;
+	transform: rotate(-90deg);
 }
 
 img{
