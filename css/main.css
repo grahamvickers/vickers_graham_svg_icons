@@ -67,7 +67,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63abe2', end
   margin-bottom: 20px;
 }
 
-#icons1{
+#container1{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -76,12 +76,34 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63abe2', end
   margin-bottom: 40px;
   border-radius: 15px;
 	background: #e1ffff;
+	text-align: center;
 	-webkit-filter: drop-shadow(5px 5px 5px #222);
 	filter: drop-shadow(5px 5px 5px #222);
 background: -moz-linear-gradient(left, #e1ffff 0%, #fdffff 54%, #fdffff 56%, #fdffff 56%, #b1d8f5 100%);
 background: -webkit-linear-gradient(left, #e1ffff 0%,#fdffff 54%,#fdffff 56%,#fdffff 56%,#b1d8f5 100%);
 background: linear-gradient(to right, #e1ffff 0%,#fdffff 54%,#fdffff 56%,#fdffff 56%,#b1d8f5 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#b1d8f5',GradientType=1 );
+}
+
+.icon object{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	border-radius: 15px;
+}
+
+.icon button{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	font-family: 'Oswald', sans-serif;
 }
 
 .basketball:hover {
@@ -133,7 +155,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', end
 	bottom: 30px;
 }
 
-#icons2{
+#container2{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
