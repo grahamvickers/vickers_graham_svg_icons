@@ -50,12 +50,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63abe2', end
   margin-top: 40px;
   font-family: Helvetica, arial, sans-serif;
 	font-weight: bold;
-
+	font-family: 'Oswald', sans-serif;
 }
 
-#welcome h1 {
+#welcome h2 {
   font-size: 45px;
 	text-shadow: 2.5px 1px 1px grey;
+	letter-spacing: 5px;
 }
 
 #intro{
